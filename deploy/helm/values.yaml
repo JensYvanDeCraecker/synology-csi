@@ -48,7 +48,7 @@ images:
   snapshotter:
     image: registry.k8s.io/sig-storage/csi-snapshotter
     pullPolicy: IfNotPresent
-    tag: v4.2.1
+    tag: v8.2.0
 installCSIDriver: true
 nameOverride: ""
 # Specifies affinity, nodeSelector and tolerations for the node DaemonSet
